@@ -1,0 +1,28 @@
+{
+  "name": "js-classnamer",
+  "version": "1.0.0",
+  "description": "A classname extension for uniform and stateful classNames between components",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "neutrino build",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "repository": "git+https://github.com/jakerichan/js-classnames.git",
+  "author": "Jake Richan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakerichan/js-classnames/issues"
+  },
+  "homepage": "https://github.com/jakerichan/js-classnames#readme",
+  "devDependencies": {
+    "@neutrinojs/jest": "^8.3.0",
+    "@neutrinojs/library": "^8.3.0",
+    "@neutrinojs/standardjs": "^8.3.0",
+    "neutrino": "^8.3.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "ramda": "^0.25.0"
+  }
+}
