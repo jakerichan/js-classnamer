@@ -4,6 +4,7 @@
   "description": "A classname extension for uniform and stateful classNames between components",
   "main": "build/index.js",
   "scripts": {
+    "prepublishOnly": "neutrino test && neutrino build",
     "build": "neutrino build",
     "lint": "neutrino lint",
     "test": "neutrino test"
