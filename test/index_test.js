@@ -1,4 +1,4 @@
-import build from '../src/build'
+import build from '../src'
 
 describe('build', () => {
   it('returns string', () => {
