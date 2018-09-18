@@ -2,13 +2,13 @@ import * as R from 'ramda'
 import classnames from 'classnames'
 
 /**
- * build results in a space separated string that composes classNames in a standard way
+ * returns a space separated string that composes classNames in a standard way
  * @param {Array} prefixes Array of strings, each will be the root of a composed className
  * @param {String} tail Element specific name dash-cased, appends to each of the given prefixes
  * @param {Object} [stateNames={}] Object describing additional state specific classes
  *
  * build(['ComponentName', 'CustomClassName'], 'actions', { active: true })
- * > 'ComponentName--actions CustomClassName--actions ComponentName--actions-active CustomClassName--actions-active'
+ * > 'ComponentName-actions CustomClassName-actions ComponentName-actions-active CustomClassName-actions-active'
  */
 const build = (prefixes, tail, stateNames = {}) => {
   const renameKeysBy = (renameKeyFn, target) => R.reduce(
