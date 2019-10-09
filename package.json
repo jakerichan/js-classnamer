@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "A classname extension for uniform and stateful classNames between components",
   "main": "build/index.js",
+  "files": [
+    "build/*"
+  ],
   "scripts": {
     "prepublishOnly": "yarn test && yarn build",
     "build": "webpack --mode production",
