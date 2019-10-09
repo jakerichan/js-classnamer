@@ -1,6 +1,6 @@
 {
   "name": "js-classnamer",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A classname extension for uniform and stateful classNames between components",
   "main": "build/index.js",
   "files": [
