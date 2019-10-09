@@ -1,12 +1,13 @@
+const standardjs = require('@neutrinojs/standardjs');
+const library = require('@neutrinojs/library');
+const jest = require('@neutrinojs/jest');
+
 module.exports = {
   use: [
-    '@neutrinojs/standardjs',
-    [
-      '@neutrinojs/library',
-      {
-        name: 'js-classnamer'
-      }
-    ],
-    '@neutrinojs/jest'
+    standardjs(),
+    library({
+      name: 'js-classnamer'
+    }),
+    jest()
   ]
 };
