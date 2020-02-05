@@ -6,7 +6,8 @@ module.exports = {
   use: [
     standardjs(),
     library({
-      name: 'js-classnamer'
+      name: 'js-classnamer',
+      target: 'node'
     }),
     jest()
   ]
